@@ -8,19 +8,97 @@
             who store data in this Data Warehouse.
         </p>
     </div>
-    <div class="p-4 mt-3 bg-danger-subtle rounded-5">
-        <div class="row g-0">
-            <div class="col-md-6">
-                <img src="{{ asset('assets/about.png') }}" class="img-fluid" alt="..." width="400">
+    <!-- Card 1 -->
+    <div class="row ">
+        <div class="col-md-6">
+            <div class="mt-3 bg-primary-subtle rounded-5 card p-3" style="border: none">
+                <div class="row g-0">
+                    <div class="col-md-5 mt-5">
+                        <img src="{{ asset('assets/feature-search.png') }}" class="img-fluid" alt="...">
+                    </div>
+                    <div class="col-md-7">
+                        <h1 class="card-title">Search Data</h1>
+                        <p class="card-text mt-4">
+                            Don’t worry if your data is very
+                            large, the Data Warehoue
+                            provides a search engine,
+                            which is useful for making it
+                            easier to find data effectively
+                            saving time.
+                        </p>
+                        <a href="#" class="card-link btn btn-outline-secondary">learn more <i
+                                class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-6 mt-5 mt-lg-5">
-                <h1 class="card-title mt-5 mt-lg-5">We are a high-level datastorage bank</h1>
-                <p class="card-text mt-4">
-                    The place to store various data that you can access at anytime through the internet and where
-                    you can carry it. This very flexible storage area has a high level of security.To enter into
-                    your own data you must enter the passwordthat you created when you registered in this Data
-                    Warehouse.
-                </p>
+        </div>
+        <div class="col-md-6">
+            <div class="mt-3 bg-danger-subtle rounded-5 card p-3" style="border: none">
+                <div class="row g-0">
+                    <div class="col-md-5 mt-5">
+                        <img src="{{ asset('assets/feature-hour.png') }}" class="img-fluid" alt="...">
+                    </div>
+                    <div class="col-md-7">
+                        <h1 class="card-title">24 Hours Access</h1>
+                        <p class="card-text mt-4">
+                            Don’t worry if your data is very
+                            large, the Data Warehoue
+                            provides a search engine,
+                            which is useful for making it
+                            easier to find data effectively
+                            saving time.
+                        </p>
+                        <a href="#" class="card-link btn btn-outline-secondary">learn more <i
+                                class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Card 2 -->
+    <div class="row mt-lg-5">
+        <div class="col-md-6">
+            <div class="mt-3 bg-primary-subtle rounded-5 card p-3" style="border: none">
+                <div class="row g-0">
+                    <div class="col-md-5 mt-5">
+                        <img src="{{ asset('assets/feature-print.png') }}" class="img-fluid" alt="...">
+                    </div>
+                    <div class="col-md-7">
+                        <h1 class="card-title">Print Out</h1>
+                        <p class="card-text mt-4">
+                            Don’t worry if your data is very
+                            large, the Data Warehoue
+                            provides a search engine,
+                            which is useful for making it
+                            easier to find data effectively
+                            saving time.
+                        </p>
+                        <a href="#" class="card-link btn btn-outline-secondary">learn more <i
+                                class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="mt-3 bg-danger-subtle rounded-5 card p-3" style="border: none">
+                <div class="row g-0">
+                    <div class="col-md-5 mt-5">
+                        <img src="{{ asset('assets/feature-security.png') }}" class="img-fluid" alt="...">
+                    </div>
+                    <div class="col-md-7">
+                        <h1 class="card-title">Security Code</h1>
+                        <p class="card-text mt-4">
+                            Don’t worry if your data is very
+                            large, the Data Warehoue
+                            provides a search engine,
+                            which is useful for making it
+                            easier to find data effectively
+                            saving time.
+                        </p>
+                        <a href="#" class="card-link btn btn-outline-secondary">learn more <i
+                                class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
