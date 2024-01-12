@@ -58,7 +58,7 @@
     <!-- Card 2 -->
     <div class="row mt-lg-5">
         <div class="col-md-6">
-            <div class="mt-3 bg-primary-subtle rounded-5 card p-3" style="border: none">
+            <div class="mt-3 bg-warning-subtle rounded-5 card p-3" style="border: none">
                 <div class="row g-0">
                     <div class="col-md-5 mt-5">
                         <img src="{{ asset('assets/feature-print.png') }}" class="img-fluid" alt="...">
@@ -80,7 +80,7 @@
             </div>
         </div>
         <div class="col-md-6">
-            <div class="mt-3 bg-danger-subtle rounded-5 card p-3" style="border: none">
+            <div class="mt-3 bg-success-subtle rounded-5 card p-3" style="border: none">
                 <div class="row g-0">
                     <div class="col-md-5 mt-5">
                         <img src="{{ asset('assets/feature-security.png') }}" class="img-fluid" alt="...">

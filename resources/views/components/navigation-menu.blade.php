@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="navbar navbar-expand-lg bg-white fixed-top">
     <div class="container">
         <a class="navbar-brand fw-bold text-primary-emphasis" style="letter-spacing: 4px" href="{{ route('home') }}">
             <img src="{{ asset('assets/icons/logo.png') }}" alt="Icons" sizes="30">
