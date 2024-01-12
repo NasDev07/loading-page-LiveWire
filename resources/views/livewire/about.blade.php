@@ -1,4 +1,4 @@
-<div>
+<div class="mt-5">
     <div class="text-center">
         <h2 class="fw-bold">
             Features

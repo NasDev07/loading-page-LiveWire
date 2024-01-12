@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row mt-5">
     <div class="col-md-8 order-md-2">
         <img src="{{ asset('assets/hero-header.png') }}" alt="" class="img-fluid">
     </div>

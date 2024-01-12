@@ -18,7 +18,7 @@
                     <a class="nav-link" wire:navigate href="{{ route('about') }}">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" wire:navigate href="#">Blog</a>
+                    <a class="nav-link" wire:navigate href="{{ route('posts') }}">Blog</a>
                 </li>
             </ul>
 

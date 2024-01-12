@@ -15,3 +15,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', \App\Livewire\Home::class)->name('home');
 Route::get('about', \App\Livewire\About::class)->name('about');
+Route::get('posts', \App\Livewire\Posts\Posts::class)->name('posts');
